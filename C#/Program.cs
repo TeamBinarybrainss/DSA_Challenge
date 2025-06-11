@@ -1,13 +1,10 @@
-﻿using System;
-using System.Linq;
-
 class Program
 {
     public static void Main(string[] args)
     {
-        // int[] arr = { 1, 2, 2, 3, 4, 5, 6 };
-        // int result = SecondLargest.GetSecondLargest(arr);
-        // Console.WriteLine(result);
+        int[] arr = { 1, 2, 2, 3, 4, 5, 6 };
+        int result = SecondLargest.GetSecondLargest(arr);
+        Console.WriteLine(result);
 
         int[] arr2 = { 0, 1, 0, 3, 12 };
         
